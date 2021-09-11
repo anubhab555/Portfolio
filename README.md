@@ -1,2 +1,3 @@
-# Portfolio
-My Personal Website Portfolio
+# My Personal Website Portfolio
+## Tech Stack Used
+- HTML
