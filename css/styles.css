@@ -1,0 +1,31 @@
+body{
+  background-color: #F9ED69;
+}
+h1
+{
+  font: italic small-caps bold 30px/2 cursive;
+  color: #F08A5D;
+}
+h3
+{
+  font-family: system-ui;
+  color: #B83B5E;
+}
+p{
+  font-family: cursive;
+}
+li
+{
+  font-family: system-ui;
+}
+th{font-family: system-ui;}
+td{font-family: system-ui;}
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+}
