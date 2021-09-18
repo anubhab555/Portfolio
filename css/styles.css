@@ -6,9 +6,18 @@ body{
   font-family: 'Merriweather', serif;
 }
 /***********HEADERS, PARAGRAPHS, etc.************/
-.Profile
+p{
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+a:hover
 {
-  width: 15%;
+  color: #664E88;
 }
 h1
 {
@@ -21,29 +30,6 @@ h2
 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.875rem;
-}
-.main
-{
-  color: #F08A5D;
-}
-.skill-row
-{
-  width: 50%;
-  margin: 70px auto;
-  text-align: left;
-  line-height: 2;
-}
-.Coding-img
-{
-  width: 20%;
-  float: left;
-  margin-right: 30px;
-}
-.Art-img
-{
-  width: 20%;
-  float: right;
-  margin-left: 30px;
 }
 h3
 {
@@ -70,6 +56,14 @@ hr
   position: relative;
   padding-top: 100px;
 }
+.heading
+{
+  margin-top: 50px;
+}
+.main
+{
+  color: #F08A5D;
+}
 .top-cloud
 {
   position: absolute;
@@ -79,8 +73,12 @@ hr
 .bottom-cloud
 {
   position: absolute;
-  top: 200px;
+  top: 300px;
   left: 400px;
+}
+.mountain
+{
+  margin-top: 3.125rem;
 }
 /***********************MID-DIV**********************/
 .middle-div
@@ -88,17 +86,36 @@ hr
   background-color: #FFF8E5;
   padding: 20px 0;
 }
-/***********************BOTTOM-DIV**********************/
-.bottom-div
+.Profile
 {
-  background-color: #F9ED69;
-  padding: 20px 0;
+  width: 15%;
 }
-.contact-msg
+.Intro
 {
-  margin-bottom: 50px;
+  width: 50%;
+  margin: auto;
 }
-.btn {
+.skill-row
+{
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+.Coding-img
+{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.Art-img
+{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.btn
+{
   background: #f9ed69;
   background-image: -webkit-linear-gradient(top, #f9ed69, #f9ed69);
   background-image: -moz-linear-gradient(top, #f9ed69, #f9ed69);
@@ -110,12 +127,13 @@ hr
   border-radius: 28px;
   font-family: Arial;
   color: #a8984a;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.btn:hover {
+.btn:hover
+{
   background: #f5b70c;
   background-image: -webkit-linear-gradient(top, #f5b70c, #f9ed69);
   background-image: -moz-linear-gradient(top, #f5b70c, #f9ed69);
@@ -124,8 +142,21 @@ hr
   background-image: linear-gradient(to bottom, #f5b70c, #f9ed69);
   text-decoration: none;
 }
+/***********************BOTTOM-DIV**********************/
+.bottom-div
+{
+  background-color: #F9ED69;
+  padding: 20px 0;
+}
+.contact-msg
+{
+  margin-bottom: 50px;
+}
 .copyright
 {
   padding-top: 10px;
   margin: 0;
+  color: #664E88;
+  font-size: 0.8rem;
+  margin: 10px auto;
 }
